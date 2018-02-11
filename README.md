@@ -19,7 +19,7 @@ There was a concern that the sensor and the display might collide with each othe
 
 Of course, it was hard to find an example when I was skeptical, but I was a bit nervous.
 
-![SHT31-TemperatureHumidityLCD-Display](./images/sht-arduion.jpg)
+![SHT31-TemperatureHumidityLCD-Display](./images/sht-arduino.jpg)
 
 Connection
 
