@@ -1,7 +1,7 @@
 # SHT31-TemperatureHumidityLCD-Display
 SHT31 Temperature Humidity Sensor Display to LCD
 
-
+![SHT31-TemperatureHumidityLCD-Display](./image/sht31.png)
 
 아두이노의 온습도 센서중에서 가장 많이 쓰는 것은 파란색 박스의 DHT11, 그리고 하얀색 박스의 DHT22 그리고 DHT31 이라는 것이 있다. 가격은 DHT11 이 가장 저렴하고, DHT22 가 그다음, DHT31 이 가장 비싼것으로 되어 있다. 물론 정밀도도 DHT11 이 가장 떨어지고, DHT31 이 가장 높다.
 
@@ -19,10 +19,14 @@ There was a concern that the sensor and the display might collide with each othe
 
 Of course, it was hard to find an example when I was skeptical, but I was a bit nervous.
 
+![SHT31-TemperatureHumidityLCD-Display](./image/sht-arduion.jpg)
+
 Connection
 
+<pre>
 SHT31 (SCL) -------+-----------> A5 (Arduino) 
                    +-------------------------------------- LCD (SCL)
 SHT31 (SLDA) -------------+----> A4 (Arduino) 
                           +------------------------------ LCD (SDA)
 
+</pre>
