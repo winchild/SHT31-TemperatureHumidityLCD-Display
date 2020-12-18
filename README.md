@@ -19,9 +19,9 @@ There was a concern that the sensor and the display might collide with each othe
 
 Of course, it was hard to find an example when I was skeptical, but I was a bit nervous.
 
-![Connection Picture](./images/IMG5984.jpg)
+![Connection Picture](./images/IMG_5984.jpg)
 
-![SHT31-TemperatureHumidityLCD-Display](./images/IMG5987.jpg)
+![SHT31-TemperatureHumidityLCD-Display](./images/IMG_5987.jpg)
 
 Connection
 
