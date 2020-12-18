@@ -19,6 +19,10 @@ There was a concern that the sensor and the display might collide with each othe
 
 Of course, it was hard to find an example when I was skeptical, but I was a bit nervous.
 
+SHT31 온습도 센서를 사용해서, 제빵용의 발효기의 제어기를 개선함. 온도 조절을 이전에는 버튼으로 했지만, 로터리 엔코더 디바이스를 이용해서, 동작하도록 프로그래밍 함. SHT31 온습도계는 소숫점 2자리까지 표현되는 센서이므로, 그에 맞게 LCD 표시되는 창을 개선함. 로터리 엔코더는 클릭이벤트 (엔코더를 눌러서 동작시킴) 가 있으므로, 클릭했을때, 온도와 습도의 선택지점이 바뀌도록 수정함. 
+
+Using the SHT31 temperature and humidity sensor, the controller of the fermenter for baking is improved. Temperature control was previously done with a button, but with a rotary encoder device, it was programmed to operate. Since the SHT31 thermo-hygrometer is a sensor that expresses up to 2 decimal places, the LCD display window has been improved accordingly. Rotary encoder has a click event (operated by pressing the encoder), so when clicked, the temperature and humidity selection points are changed.
+
 ![Connection Picture](./images/IMG_5984.jpg)
 
 ![SHT31-TemperatureHumidityLCD-Display](./images/IMG_5987.jpg)
