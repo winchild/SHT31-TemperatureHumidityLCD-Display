@@ -24,9 +24,16 @@ Of course, it was hard to find an example when I was skeptical, but I was a bit 
 Connection
 
 <pre>
-SHT31 (SCL) -------+-----------> A5 (Arduino) 
+SHT31 (SCL) -------+-----------------> A5 (Arduino) 
                    +-------------------------------------- LCD (SCL)
-SHT31 (SLDA) -------------+----> A4 (Arduino) 
-                          +------------------------------ LCD (SDA)
+SHT31 (SLDA) -------------+----------> A4 (Arduino) 
+                          +------------------------------- LCD (SDA)
+                          
+Rotery Encoder (SW) -----------------> D4 (Arduino) 
+Rotery Encoder (DATA) ---------------> D2 (Arduino) 
+Rotery Encoder (CLK) ----------------> D3 (Arduino) 
+
+Relay 1 {Temperature)  --------------> D6 (Arduino)
+Relay 2 (Humidity)  -----------------> D7 (Arduino)
 
 </pre>
